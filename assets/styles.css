@@ -1,27 +1,3 @@
-/* Body Image */
-body {
-    background-image: url("images/abstract.png");
-    background-blend-mode: screen;
-    background-color: rgb(160, 125, 160);
-}
-/* for js header color change */
-.none {
-    background-blend-mode: screen;
-    background-color: rgb(160, 125, 160);
-}
-/* for js header color change */
-.blue {
-    background-blend-mode: screen;
-    background-color: rgb(149, 149, 252);
-    
-}
- /* for js header color change */
-.red {
-    background-blend-mode: screen;
-    background-color: rgb(128, 72, 72);
-    
-}
-
 /* Header Styles */
 
 @font-face {
@@ -34,6 +10,7 @@ body {
 }
 
 header {
+    background-image: url("images/abstract.gif");
     font-family: 'modernline';
     font-size: 50px;
     padding-left: 2%;
