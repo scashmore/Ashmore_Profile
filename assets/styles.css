@@ -14,7 +14,8 @@ body {
 }
 
 .header {
-    margin: 10px;
+    margin: 1%;
+    min-width: 100%;
 }
 
 header {
@@ -116,6 +117,9 @@ a:active {
 /* Content Styles */
 
 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 35%;
     margin-left: 15px;
     padding-top: 10%
@@ -124,14 +128,12 @@ a:active {
 .content h2 {
     color: whitesmoke;
     font-family: 'modernline';
-    text-shadow: 5px 1px 2.5px rgb(196, 187, 187);
+    text-shadow: 5px 4px 4px rgb(43, 41, 41);
     font-size: 50px;
 }
 
 .content p {
-    color: whitesmoke;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular';
-    font-size: 14px;
+    display: none;
 }
 
 .About {
@@ -154,11 +156,16 @@ a:active {
 }
 
 .About:hover {
-    width: 600px;
+    width: 300%;
     height: 600px;
+    padding-top: 100px;
+    background-position: left;
 }
 
 .Work {
+    background-image: url('images/work.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
     width: 500px;
     height: 500px;
     padding-top: 350px;
@@ -175,11 +182,16 @@ a:active {
 }
 
 .Work:hover {
-    width: 600px;
+    width: 300%;
     height: 600px;
+    padding-top: 100px;
+    background-position: left;
 }
 
 .Resume {
+    background-image: url('images/resume.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
     width: 500px;
     height: 500px;
     padding-top: 350px;
@@ -196,11 +208,16 @@ a:active {
 }
 
 .Resume:hover {
-    width: 600px;
+    width: 300%;
     height: 600px;
+    padding-top: 100px;
+    background-position: left;
 }
 
 .Contact {
+    background-image: url('images/contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
     width: 500px;
     height: 500px;
     padding-top: 350px;
@@ -217,8 +234,10 @@ a:active {
 }
 
 .Contact:hover {
-    width: 600px;
+    width: 300%;
     height: 600px;
+    padding-top: 100px;
+    background-position: left;
 }
 
 /* Footer styles */
