@@ -76,9 +76,9 @@ a:active {
 .box1 {
     margin: 20px 10px 50px 20px;
     padding-bottom: 60px;
-    color:whitesmoke;
+    color:transparent;
     font-family: 'modernline';
-    text-shadow: 5px 1px 2.5px rgb(196, 187, 187);
+    text-shadow: 5px 3px 2.5px rgb(196, 187, 187);
     font-size: 120px;
     text-align: center;
 }
@@ -87,18 +87,30 @@ a:active {
     clear: both;
     float: left;
     margin-left: 20px;
+    background-image: url('images/abstract.gif');
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
     
 }
 
 .design {
     clear: both;
     float: center;
+    background-image: url('images/abstract.gif');
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
 }
 
 .develop {
     clear: both;
     float: right;
     margin-right: 20px;
+    background-image: url('images/abstract.gif');
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
 }
 
 /* Content Styles */
