@@ -35,9 +35,6 @@ header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
     font-size: 30px;
     text-shadow: none;
-    border-color:whitesmoke;
-    border-radius: 10px;
-    border-width: 3px;
 }
 
 .navigation ul li {
@@ -185,4 +182,30 @@ a:active {
     border-width: 4px;
     border-radius: 50%;
     border-style: solid;
+}
+
+/* Footer styles */
+
+Footer {
+    background-image: url('images/abstract.gif');
+}
+
+Footer ul {
+    padding-top: 50px;
+    padding-bottom: 5px;
+    margin-right: 2%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 15px;
+    list-style-type: none;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    text-decoration-thickness: 2%;
+
+}
+
+Footer ul li {
+    margin-right: 5px;
 }
