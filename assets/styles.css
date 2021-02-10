@@ -1,3 +1,11 @@
+/* Body Styles */
+
+body {
+    background-color: black;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 /* Header Styles */
 
 @font-face {
@@ -67,9 +75,69 @@ a:active {
     color: whitesmoke
 }
 
+.box1 {
+    margin: 20px 10px 50px 20px;
+    padding-bottom: 60px;
+    color:whitesmoke;
+    font-family: 'modernline';
+    text-shadow: 5px 1px 2.5px rgb(196, 187, 187);
+    font-size: 120px;
+    text-align: center;
+}
+
+.innovate {
+    clear: both;
+    float: left;
+    margin-left: 20px;
+    
+}
+
+.design {
+    clear: both;
+    float: center;
+}
+
+.develop {
+    clear: both;
+    float: right;
+    margin-right: 20px;
+}
+
 /* Content Styles */
 
 .content {
     width: 35%;
-    margin-left: 15px
+    margin-left: 15px;
+    padding-top: 10%
+}
+
+.content h2 {
+    color: whitesmoke;
+    font-family: 'modernline';
+    text-shadow: 5px 1px 2.5px rgb(196, 187, 187);
+    font-size: 50px;
+}
+
+.content p {
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 14px;
+}
+
+.About {
+    background-image: url('images/portraitResize.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    padding-top: 15%;
+    padding-right: 2%;
+    display: inline-block;
+    text-align: center;
+    margin: 5%;
+    padding-left: 2%;
+    border-color: whitesmoke;
+    border-width: 4px;
+    border-radius: 50%;
+    border-style: solid;
 }
