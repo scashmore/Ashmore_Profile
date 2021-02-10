@@ -1,20 +1,8 @@
-/* Header Styles */
-
-@font-face {
-    font-family: modernline;
-    src: url("fonts/modernline.otf");
-}
-
-header {
+/* Body Image */
+body {
     background-image: url("images/abstract.png");
     background-blend-mode: screen;
     background-color: rgb(160, 125, 160);
-    font-family: 'modernline';
-    font-size: 50px;
-    padding-left: 2%;
-    margin-top: 1%;
-    color: whitesmoke;
-    text-shadow: 5px 1px 2.5px rgb(196, 187, 187);
 }
 /* for js header color change */
 .none {
@@ -33,11 +21,27 @@ header {
     background-color: rgb(128, 72, 72);
     
 }
-/* for js header color change */
-.green {
-    background-blend-mode: screen;
-    background-color: rgb(105, 187, 105);
+
+/* Header Styles */
+
+@font-face {
+    font-family: modernline;
+    src: url("fonts/modernline.otf");
 }
+
+.header {
+    margin: 10px;
+}
+
+header {
+    font-family: 'modernline';
+    font-size: 50px;
+    padding-left: 2%;
+    margin-top: 1%;
+    color: whitesmoke;
+    text-shadow: 5px 1px 2.5px rgb(196, 187, 187);
+}
+
 
 .navigation ul{
     display: flex;
@@ -46,6 +50,9 @@ header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
     font-size: 30px;
     text-shadow: none;
+    border-color:whitesmoke;
+    border-radius: 10px;
+    border-width: 3px;
 }
 
 .navigation ul li {
@@ -83,4 +90,9 @@ a:active {
     color: whitesmoke
 }
 
-/* Sectoin Styles */
+/* Content Styles */
+
+.content {
+    width: 35%;
+    margin-left: 15px
+}
