@@ -122,7 +122,8 @@ a:active {
     justify-content: space-between;
     width: 35%;
     margin-left: 15px;
-    padding-top: 10%
+    padding-top: 10%;
+    
 }
 
 .content h2 {
@@ -130,115 +131,67 @@ a:active {
     font-family: 'modernline';
     text-shadow: 5px 4px 4px rgb(43, 41, 41);
     font-size: 50px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.content p {
-    display: none;
+img {
+    border-color: whitesmoke;
+    border-width: 4px;
+    border-radius: 50%;
+    border-style: solid;
+    width: 475px;
+    height: 475px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.box2 {
+    flex-wrap: wrap;
+}
+
+article {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    color: whitesmoke;
+    font-size: 15px;
+    /* border-style: solid;
+    border-color:whitesmoke;
+    border-radius: 50%;
+    height: 400px;
+    width: 550px; */
+    text-align: center;
+    flex-direction: row;
+    justify-content: flex-end ;
+    
 }
 
 .About {
-    background-image: url('images/portraitResize.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 500px;
-    height: 500px;
-    padding-top: 350px;
-    padding-right: 2%;
-    display: inline-block;
+    position: relative;
     text-align: center;
-    margin: 5%;
-    padding-left: 2%;
-    border-color: whitesmoke;
-    border-width: 4px;
-    border-radius: 50%;
-    border-style: solid;
-    transition: width 2s, height 2s ease-in-out; 
-}
-
-.About:hover {
-    width: 300%;
-    height: 600px;
-    padding-top: 100px;
-    background-position: left;
+    
 }
 
 .Work {
-    background-image: url('images/work.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 500px;
-    height: 500px;
-    padding-top: 350px;
-    padding-right: 2%;
-    display: inline-block;
+    position: relative;
     text-align: center;
-    margin: 5%;
-    padding-left: 2%;
-    border-color: whitesmoke;
-    border-width: 4px;
-    border-radius: 50%;
-    border-style: solid;
-    transition: width 2s, height 2s ease-in-out; 
-}
-
-.Work:hover {
-    width: 300%;
-    height: 600px;
-    padding-top: 100px;
-    background-position: left;
+    
 }
 
 .Resume {
-    background-image: url('images/resume.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 500px;
-    height: 500px;
-    padding-top: 350px;
-    padding-right: 2%;
-    display: inline-block;
+    position: relative;
     text-align: center;
-    margin: 5%;
-    padding-left: 2%;
-    border-color: whitesmoke;
-    border-width: 4px;
-    border-radius: 50%;
-    border-style: solid;
-    transition: width 2s, height 2s ease-in-out; 
-}
-
-.Resume:hover {
-    width: 300%;
-    height: 600px;
-    padding-top: 100px;
-    background-position: left;
+    
 }
 
 .Contact {
-    background-image: url('images/contact.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 500px;
-    height: 500px;
-    padding-top: 350px;
-    padding-right: 2%;
-    display: inline-block;
+    position: relative;
     text-align: center;
-    margin: 5%;
-    padding-left: 2%;
-    border-color: whitesmoke;
-    border-width: 4px;
-    border-radius: 50%;
-    border-style: solid;
-    transition: width 2s, height 2s ease-in-out; 
+    
 }
 
-.Contact:hover {
-    width: 300%;
-    height: 600px;
-    padding-top: 100px;
-    background-position: left;
-}
 
 /* Footer styles */
 
