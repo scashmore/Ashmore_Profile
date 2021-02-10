@@ -1,0 +1,39 @@
+@font-face {
+    font-family: modernline;
+    src: url("fonts/modernline.otf");
+}
+
+header {
+    background-image: url("images/abstract.png");
+    font-family: 'modernline';
+    font-size: 50px;
+    padding-left: 2%;
+    margin-top: 1%;
+    color: whitesmoke;
+    text-shadow: 5px 1px 2.5px rgb(196, 187, 187);
+}
+
+.navigation ul{
+    display: flex;
+    -ms-flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 30px;
+    text-shadow: none;
+}
+
+.navigation ul li {
+    margin-right: 15px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    text-decoration-thickness: 2%;
+    }
+
+.navigation ul li:hover {
+    cursor: pointer;
+    color: goldenrod;
+    text-decoration-color: goldenrod;
+}
