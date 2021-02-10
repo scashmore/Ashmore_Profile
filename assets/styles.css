@@ -7,12 +7,36 @@
 
 header {
     background-image: url("images/abstract.png");
+    background-blend-mode: screen;
+    background-color: rgb(160, 125, 160);
     font-family: 'modernline';
     font-size: 50px;
     padding-left: 2%;
     margin-top: 1%;
     color: whitesmoke;
     text-shadow: 5px 1px 2.5px rgb(196, 187, 187);
+}
+/* for js header color change */
+.none {
+    background-blend-mode: screen;
+    background-color: rgb(160, 125, 160);
+}
+/* for js header color change */
+.blue {
+    background-blend-mode: screen;
+    background-color: rgb(149, 149, 252);
+    
+}
+ /* for js header color change */
+.red {
+    background-blend-mode: screen;
+    background-color: rgb(128, 72, 72);
+    
+}
+/* for js header color change */
+.green {
+    background-blend-mode: screen;
+    background-color: rgb(105, 187, 105);
 }
 
 .navigation ul{
@@ -35,7 +59,7 @@ header {
 
  a {
     color: whitesmoke
-    text-decoration: underline;
+    text-decoration underline;
     text-decoration-color: whitesmoke;
     text-decoration-thickness: 2%;
 }
@@ -59,4 +83,4 @@ a:active {
     color: whitesmoke
 }
 
-/* Body Styles */
+/* Sectoin Styles */
