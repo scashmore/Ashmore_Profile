@@ -1,3 +1,5 @@
+/* Header Styles */
+
 @font-face {
     font-family: modernline;
     src: url("fonts/modernline.otf");
@@ -15,7 +17,6 @@ header {
 
 .navigation ul{
     display: flex;
-    -ms-flex-direction: row;
     justify-content: flex-end;
     flex-wrap: wrap;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
@@ -32,8 +33,30 @@ header {
     text-decoration-thickness: 2%;
     }
 
-.navigation ul li:hover {
+ a {
+    color: whitesmoke
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    text-decoration-thickness: 2%;
+}
+
+a:link {
+    color: whitesmoke
+}
+
+a:visited {
+    color: whitesmoke
+
+}
+
+a:hover {
     cursor: pointer;
     color: goldenrod;
     text-decoration-color: goldenrod;
 }
+
+a:active {
+    color: whitesmoke
+}
+
+/* Body Styles */
