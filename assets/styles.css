@@ -130,7 +130,52 @@ a:active {
     background-position: center;
     width: 500px;
     height: 500px;
-    padding-top: 15%;
+    padding-top: 55%;
+    padding-right: 2%;
+    display: inline-block;
+    text-align: center;
+    margin: 5%;
+    padding-left: 2%;
+    border-color: whitesmoke;
+    border-width: 4px;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+.Work {
+    width: 500px;
+    height: 500px;
+    padding-top: 55%;
+    padding-right: 2%;
+    display: inline-block;
+    text-align: center;
+    margin: 5%;
+    padding-left: 2%;
+    border-color: whitesmoke;
+    border-width: 4px;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+.Resume {
+    width: 500px;
+    height: 500px;
+    padding-top: 55%;
+    padding-right: 2%;
+    display: inline-block;
+    text-align: center;
+    margin: 5%;
+    padding-left: 2%;
+    border-color: whitesmoke;
+    border-width: 4px;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+.Contact {
+    width: 500px;
+    height: 500px;
+    padding-top: 55%;
     padding-right: 2%;
     display: inline-block;
     text-align: center;
