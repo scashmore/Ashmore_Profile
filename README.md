@@ -13,12 +13,12 @@ The primary methood of construction was css flexbox. Flexbox allows developers t
 Currently, all links in the header and footer redirect the user to the proper section of the page. All links in the contact section are fully functional as well. However, due to the lack of completed web projects, none of the projects link to an external pages as can be seen below.
 
 
-![Image](assets/images/corrected.png)
+![Image](assets/images/Capture.png)
 
 
 ## Credits
 
-The following were created by me (Susan Ashmore): abstract.png abstract.gif profile.jpeg profileResize.jpeg
+The following were created by me (Susan Ashmore): abstract.png abstract.gif profile.jpg profileResize.jpg
 
 font modernline
 https://www.dafont.com/modernline.font
