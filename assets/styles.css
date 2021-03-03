@@ -1,5 +1,7 @@
 /* Body Styles */
-
+html {
+    overflow-x: hidden;
+}
 body {
     background-color: black;
     min-width: 100%;
@@ -19,20 +21,24 @@ header {
     background-image: url("images/abstract.gif");
     font-family: 'modernline';
     font-size: 2.5em;
-    padding-left: 2%;
-    padding-right: 2%;
     margin-top: 1%;
     color: whitesmoke;
     text-shadow: 5px 1px 2.5px rgb(196, 187, 187);
 }
 
+h1 {
+    padding-top: 1.5%;
+    padding-left: 3%;
+}
+
 
 .navigation ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    padding-right: .5%; 
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular';
-    font-size: 1em;
     text-shadow: none;
 }
 
@@ -74,13 +80,13 @@ a:active {
 }
 
 .box1 {
-    height: 80vh;
+    height: 40vh;
     margin: 20px 10px 50px 20px;
     padding-bottom: 60px;
     color: transparent;
     font-family: 'modernline';
-    text-shadow: 5px 3px 2.5px rgb(196, 187, 187);
-    font-size: 120px;
+    text-shadow: 3px 3px 2.5px rgb(196, 187, 187);
+    font-size: 50px;
     text-align: center;
 }
 
@@ -114,12 +120,13 @@ a:active {
     background-clip: text;
 }
 
-.h3 {
+h3 {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-size: 50px;
 }
 
 /* Content Styles */
@@ -147,8 +154,6 @@ a:active {
     border-width: 4px;
     border-radius: 50%;
     border-style: solid;
-    width: 475px;
-    height: 475px;
     object-fit: cover;
     object-position: center;
     margin-bottom: 5%;
@@ -213,12 +218,14 @@ p {
 /* Footer styles */
 
 Footer {
+    width: 100vw;
     background-image: url('images/abstract.gif');
 }
 
 Footer ul {
     padding-top: 50px;
     padding-bottom: 5px;
+    padding-right: 0.85%;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
