@@ -11,6 +11,13 @@
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/styles.css" />
 
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body id="body">
@@ -49,7 +56,38 @@
                 </p>
             </article>
         </section>
-        <section class="box3">
+        <div id="work" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#work" data-slide-to="0" class="active"></li>
+                <li data-target="#work" data-slide-to="1"></li>
+                <li data-target="#work" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <a href="https://scashmore.github.io/Password_Generator/"><img class="d-block w-100"
+                            src="assets/images/RestResult.png" alt="Password Generator"></a>
+                </div>
+                <div class="carousel-item">
+                    
+                    <a href="https://scashmore.github.io/Restaurants-Near-Me/">
+                        <img class="d-block w-100" src="assets/images/whole.PNG" alt="Restaurant Picker"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#">
+                    <img class="d-block w-100" src="http://placeimg.com/300/300/animals" alt="Tbd">
+                    </a>
+                </div>
+                <h2>Work</h2>
+            </div>
+            <a class="carousel-control-prev" href="#work" role="button" data-slide="prev">
+                
+                <span class="sr-only">←</span>
+            </a>
+            <a class="carousel-control-next" href="#work" role="button" data-slide="next">
+                <span class="sr-only">→</span>
+            </a>
+            <!-- <section class="box3">
             <div class="Work Picture" id="Work">
                 <img class="big" src="assets/images/work.jpg" alt="work image" width="auto" height="auto">
                 <h2>Work</h2>
@@ -62,32 +100,33 @@
                 <a href=#><img class="pro1" src="http://placeimg.com/300/300/tech?t=1612998401696"
                         alt="random tech"></a>
             </article>
-        </section>
-        <section class="box2">
-            <div class="Resume Picture" id="Resume">
-                <img class="big" src="assets/images/resume.jpg" alt="work image" width="auto" height="auto">
-                <h2>Resume</h2>
-            </div>
-            <article>
-                <a href=#>Coming Soon</a>
-            </article>
-        </section>
-        <section class="box3">
-            <div class="Contact Picture" id="Contact">
-                <img class="big" src="assets/images/contact.jpg" alt="work image" width="auto" height="auto">
-                <h2>Contact</h2>
-            </div>
-            <article>
-                <ul class="touch">
-                    <li>Phone: <a href="tel:828-553-4465">(828)-553-4465</a></li>
-                    <li>Email: <a href="scashmorecitcom@gmail.com">scashmorecitcom@gmail.com</a></li>
-                    <li>Github: <a href="https://github.com/scashmore/Ashmore_Profile">scashmore</a></li>
-                    <li>Linkeden: <a href="https://www.linkedin.com/in/susan-ashmore-881217a9/">Susan Ashmore</a></li>
-                </ul>
-            </article>
-        </section>
+        </section> -->
+            <section class="box2">
+                <div class="Resume Picture" id="Resume">
+                    <img class="big" src="assets/images/resume.jpg" alt="work image" width="auto" height="auto">
+                    <h2>Resume</h2>
+                </div>
+                <article>
+                    <a href=#>Coming Soon</a>
+                </article>
+            </section>
+            <section class="box3">
+                <div class="Contact Picture" id="Contact">
+                    <img class="big" src="assets/images/contact.jpg" alt="work image" width="auto" height="auto">
+                    <h2>Contact</h2>
+                </div>
+                <article>
+                    <ul class="touch">
+                        <li>Phone: <a href="tel:828-553-4465">(828)-553-4465</a></li>
+                        <li>Email: <a href="scashmorecitcom@gmail.com">scashmorecitcom@gmail.com</a></li>
+                        <li>Github: <a href="https://github.com/scashmore/Ashmore_Profile">scashmore</a></li>
+                        <li>Linkeden: <a href="https://www.linkedin.com/in/susan-ashmore-881217a9/">Susan Ashmore</a>
+                        </li>
+                    </ul>
+                </article>
+            </section>
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <section class="footnav">
             <ul>
                 <li>
@@ -101,7 +140,7 @@
                 </li>
             </ul>
         </section>
-    </footer>
+    </footer> -->
     <script src="assets/script.js"></script>
 </body>
 

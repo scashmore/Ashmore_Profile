@@ -200,6 +200,24 @@ p {
     font-size: 15px;
 }
 
+.carousel {
+    height: 50vh;
+    width: 70vw;
+    margin: 15%;
+}
+
+.carousel-item {
+    max-height: 50vh;
+}
+.sr-only {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: whitesmoke;
+    font-size: 150px;
+}
+
+
 .Picture {
     margin-left: 5%;
     flex-direction: column;
