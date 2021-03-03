@@ -30,4 +30,8 @@ image resume.jpg
 https://www.pexels.com/photo/marketing-people-woman-art-5915156/
 
 image contact.jpg
+<<<<<<< HEAD
 https://www.pexels.com/photo/hand-smartphone-technology-calling-3071/
+=======
+https://www.pexels.com/photo/hand-smartphone-technology-calling-3071/
+>>>>>>> e178df4512fff4477080550f96cb9d6d4d8029ad
