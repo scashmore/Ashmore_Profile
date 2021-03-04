@@ -48,7 +48,6 @@ h1 {
     list-style-type: none;
     text-decoration: underline;
     text-decoration-color: whitesmoke;
-    text-decoration-thickness: 2%;
     }
 
  a {
@@ -56,7 +55,6 @@ h1 {
     color: whitesmoke;
     text-decoration: none;
     text-decoration-color: whitesmoke;
-    margin-right: 3%;
 }
 
 a:link {
@@ -205,10 +203,12 @@ p {
     color: whitesmoke;
 }
 
+
+
 .carousel {
-    width: 42%;
+    margin-right: 2%;
+    width: 500px;
     height: 667px;
-    margin: 15%;
     border: whitesmoke;
     border-radius: 50%;
     border-style: solid;
@@ -216,7 +216,9 @@ p {
     justify-content: center;
 }
 .carousel-inner {
-    height: 657px;
+        display: flex;
+        flex-direction: column;
+        height: 657px;
         border: none;
         border-radius: 50%;
         border-style: solid;
@@ -225,22 +227,23 @@ p {
         object-position:inherit;
 
 }
-
 .carousel-item {
     text-align: center;
 }
 a > img{
-    padding-top: 10%;
     height: 50vh;
+}
+a > p{
+    margin-top: 5%;
 }
 
 .sr-only {
+    text-shadow: black 2px 2px 2px;
     color: whitesmoke;
     font-weight: bold;
     text-decoration: none;
     font-size: 150px;
 }
-
 
 .Picture {
     margin-left: 5%;
